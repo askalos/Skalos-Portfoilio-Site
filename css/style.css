@@ -156,12 +156,14 @@ section{
 
 /* Home Page */
 
-.homehero{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 75%;
+.homehero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+    position: absolute;
+    top: 40%;
 }
 
 .homehero h1{
@@ -191,6 +193,16 @@ section{
 }
 
 /* About Page */
+
+#contact_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row;
+  width: 75vw;
+  height: 100%;
+}
 
 #about_section{
   display: flex;
@@ -245,8 +257,6 @@ section{
 
 /* Portolio Page Styles */
 
-
-
 .maincontent{
   display: flex;
   justify-content: center;
@@ -255,7 +265,6 @@ section{
   flex-direction: column;
   margin: 0 auto;
 }
-
 
 .maincontent h3{
   margin: 3% 0 2% 0;
@@ -271,6 +280,21 @@ section{
   margin: 0 0 3% 0;
 }
 
+.workgrid{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.workgrid img{
+  width: 50%;
+  height: auto;
+}
+
 
 
 /* Media Queries */
@@ -281,7 +305,13 @@ section{
 }
 
 /* Large devices (desktops, less than 1024px) */
-@media (max-width: 1023.98px) { 
+@media (max-width: 1024px) {
+  
+  .maincontent p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 3% 0;
+}
 
 }
 
