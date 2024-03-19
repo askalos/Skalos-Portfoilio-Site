@@ -144,16 +144,108 @@ h4{
   font-size: 57px;
 }
 
-
-/* FOR CONTACT AND ABT
-.noncentered{
-
-
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
 }
-*/
+
+/* Home Page */
+
+.homehero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.homehero h1{
+  color: #1E4032;
+  font-family: "Paytone One", sans-serif;
+  font-size: 130px;
+}
+
+.wide_text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  color: #4A7B66;
+  font-size: 3rem;
+}
+
+.short_text{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  color: #4A7B66;
+  font-size: 3rem;
+}
+
+/* About Page */
+
+#about_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row;
+  width: 75vw;
+  height: 100%;
+}
+
+.circle_me{
+  width: 500px;
+  border-radius: 50%;
+  margin: 1%;
+}
+
+.centerme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* Portfolio Home */
+
+.work_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.work_section img{
+  width: 400px;
+  border-radius: 15%;
+}
+
+.portfoliobutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3%;
+}
+
+/* Portolio Page Styles */
 
 
-/* Page Styles */
 
 .maincontent{
   display: flex;
