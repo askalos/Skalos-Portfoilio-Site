@@ -172,9 +172,19 @@ section{
   font-size: 130px;
 }
 
-.wide_text{
+.wide_text_left{
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  color: #4A7B66;
+  font-size: 3rem;
+}
+
+.wide_text_right{
+  display: flex;
+  justify-content: end;
   align-items: center;
   margin: 0 auto;
   width: 100%;
@@ -190,6 +200,16 @@ section{
   width: 100%;
   color: #4A7B66;
   font-size: 3rem;
+}
+
+.wideintro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* About Page */
@@ -208,14 +228,14 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 3%;
   flex-direction: row;
   width: 75vw;
   height: 100%;
 }
 
 .circle_me{
-  width: 500px;
+  width: 400px;
   border-radius: 50%;
   margin: 1%;
 }
