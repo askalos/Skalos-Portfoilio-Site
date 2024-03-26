@@ -291,7 +291,7 @@ section{
   margin: 0 auto;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
   text-shadow: -1px 2px 5px gray;
 }
 
@@ -306,6 +306,13 @@ section{
   align-items: center;
   flex-direction: column;
   margin: 3%;
+}
+
+.portfoliobutton a {
+  z-index: 1;
+  position: relative;
+  top: -160px;
+  color: #fff;
 }
 
 /* Portolio Page Styles */
