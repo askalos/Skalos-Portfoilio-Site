@@ -283,9 +283,13 @@ section{
     padding-right: 9%;
 }
 
+.contactme img{
+  margin-right: 10px;
+}
+
 .contactme ul li{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 85%;
   margin: 1%;
@@ -300,11 +304,15 @@ section{
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
-  left: 0;
+  right: 0;
   background-color: #4A7B66;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.mobilenavigation{
+  display: none;
 }
 
 .sidenav a {
@@ -344,16 +352,6 @@ section{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
-
-/* I CANNOT DO THIS THING i think it has to do with the list being in the same list as the icons.
-
-.contactme ul li a{
-
-} 
-
-*/
-
 
 /* Portfolio Home */
 
@@ -576,6 +574,15 @@ h4{
   font-family: "Paytone One", sans-serif;
   font-size: 120px;
   letter-spacing: 2px;
+}
+
+nav{
+  display: none;
+}
+
+.mobilenavigation{
+  display: flex;
+  color: #fff;
 }
 
 }
