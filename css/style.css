@@ -165,7 +165,7 @@ section{
   margin: 0 auto;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100vw;
+  
 }
 
 /* Home Page */
@@ -298,6 +298,22 @@ section{
   flex-direction: row;
   flex-wrap: nowrap;
   line-height: 3;
+}
+
+/* Portfolio Page Styles - Booklet */
+
+.booklet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+}
+
+.booklet img{
+  width: 95%;
+  height: auto;
 }
 
 /* The side navigation menu NOTES FROM W3 */
@@ -709,6 +725,15 @@ h4{
 
 .short_text {
   font-size: 2rem;
+}
+
+#contact_section{
+  flex-direction: column;
+}
+
+#about_section{
+  flex-direction: column;
+  align-items: center;
 }
 
 }
