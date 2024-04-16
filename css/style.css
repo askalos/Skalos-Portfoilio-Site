@@ -236,7 +236,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3%;
+  margin: 4%;
   flex-direction: row;
   width: 66vw;
   height: 100%;
@@ -535,7 +535,7 @@ h4{
   align-items: flex-start;
   margin: 3%;
   flex-direction: row;
-  width: 95vw;
+  width: 92vw;
   height: 100%;
   line-height: 1.4;
   padding-top: 60px;
@@ -546,12 +546,9 @@ h4{
   position: relative;
   top: -207px;
   color: #fff;
-  font-size: 41px;
+  font-size: 47px;
   letter-spacing: 2px;
 }
- 
-
-/* TIM FIX THIS DAMN THING */
 
 a .breakme {
   inline-size: 90px;
@@ -599,6 +596,10 @@ a{
   margin: 1% 0 2% 0;
 }
 
+.centerme {
+  font-size: 22px;
+}
+
 h2{
   text-decoration: none;
   color: #1E4032;
@@ -626,10 +627,10 @@ h4{
 }
 
 .circle_me{
-  width: 270px;
-  border-radius: 50%;
-  margin: 1%;
-  position: relative;
+    width: 279px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
 }
 
 .circle_me2{
@@ -647,7 +648,6 @@ h4{
 .work_section img{
   width: 360px;
 }
-
 
 .maincontent img{
   width: 100%;
@@ -677,9 +677,9 @@ nav{
   top: -5px;
 }
 
-.contactme ul li{
+.contactme ul li {
   line-height: 2.5;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .portfoliobutton{
@@ -695,6 +695,12 @@ nav{
   letter-spacing: 2px;
 }
 
+#contact_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6%;
+}
 
 }
 
@@ -712,6 +718,10 @@ nav{
   padding-left: 7%;
   padding-right: 7%;
   margin: 1% 0 2% 0;
+}
+
+.centerme {
+  margin: -1%;
 }
   
 h2{
@@ -950,6 +960,11 @@ h4{
 
 .work_section img{
   width: 330px;
+}
+
+.portfoliobutton a {
+  top: -141px;
+  font-size: 34px;
 }
 
 }
