@@ -429,6 +429,7 @@ a.breakme {
   letter-spacing: 2px;
 }
 
+
 /* Portolio Page Styles */
 
 .maincontent{
@@ -550,6 +551,7 @@ h4{
   letter-spacing: 2px;
 }
 
+
 a .breakme {
   inline-size: 90px;
   overflow-wrap: break-word;
@@ -576,6 +578,10 @@ a:active{
 a{
   color: #4A7B66;
   text-decoration: none;
+}
+
+.work_section{
+  text-shadow: -1px 2px 5px rgb(44, 44, 44);
 }
 
 }
@@ -700,6 +706,10 @@ nav{
   justify-content: center;
   align-items: center;
   margin: 6%;
+}
+
+.work_section{
+  text-shadow: -1px 2px 5px rgb(44, 44, 44);
 }
 
 }
@@ -841,6 +851,10 @@ h4{
   padding-right: 0%;
 }
 
+.work_section{
+  text-shadow: -1px 2px 5px rgb(44, 44, 44);
+}
+
 }
 
 /* X-Small devices (portrait phones, less than 375px) */
@@ -963,8 +977,16 @@ h4{
 }
 
 .portfoliobutton a {
+  z-index: 1;
+  position: relative;
   top: -141px;
-  font-size: 34px;
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.work_section{
+  text-shadow: -1px 2px 5px rgb(44, 44, 44);
 }
 
 }
